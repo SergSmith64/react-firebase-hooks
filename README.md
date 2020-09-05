@@ -25,5 +25,7 @@ and testing boostrap as
 ~~~
 
 4. create Navbar with Navlink-s:
-* <NavLink className="nav-link" to="/" exact>Главная</NavLink>
-* <NavLink className="nav-link" to="/about">Инфо</NavLink>
+~~~javascript
+<NavLink className="nav-link" to="/" exact>Главная</NavLink>
+<NavLink className="nav-link" to="/about">Инфо</NavLink>
+~~~
