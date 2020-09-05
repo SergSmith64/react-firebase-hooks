@@ -4,9 +4,13 @@ ToDos without classes. Only Hooks!
 1. npm install node-sass react-router-dom bootstrap axios
 
 2. add in index.scss:
-* @import "~bootstrap/scss/bootstrap";
+~~~javascript
+@import "~bootstrap/scss/bootstrap";
+~~~
 and testing boostrap as
-* <div className="container">Test</div>
+~~~javascript
+<div className="container">Test</div>
+~~~
 
 3. create routing for 2 pages: Home & About:
 ~~~javascript
@@ -19,3 +23,7 @@ and testing boostrap as
 	</div>
 </BrowserRouter>
 ~~~
+
+4. create Navbar with Navlink-s:
+* <NavLink className="nav-link" to="/" exact>Главная</NavLink>
+* <NavLink className="nav-link" to="/about">Инфо</NavLink>
