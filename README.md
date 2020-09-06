@@ -49,3 +49,5 @@ const notes = new Array( 3 )
 9. create component Alert (the type of alert will be transmitted dynamically or return NULL)
 
 10. create AlertState, alertReducer, alertContext and types and AlertState wrapped all components in App
+
+11. add logic...
