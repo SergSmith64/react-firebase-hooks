@@ -29,3 +29,5 @@ and testing boostrap as
 <NavLink className="nav-link" to="/" exact>Главная</NavLink>
 <NavLink className="nav-link" to="/about">Инфо</NavLink>
 ~~~
+
+5. add content ( Jumbotron ) to About page
