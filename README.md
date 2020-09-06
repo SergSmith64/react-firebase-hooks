@@ -31,3 +31,10 @@ and testing boostrap as
 ~~~
 
 5. add content ( Jumbotron ) to About page
+
+6. create Notes.js and a list of 3 items
+~~~javascript
+const notes = new Array( 3 )
+		.fill('')
+		.map( (_, i) => ({id: i, title: `Note ${i + 1}`}) )
+~~~
