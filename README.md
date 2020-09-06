@@ -40,3 +40,8 @@ const notes = new Array( 3 )
 ~~~
 
 7. create button (for each item) to delete this item
+
+8. add current date to item
+~~~javascript
+<span>{new Date().toLocaleDateString()}</span>
+~~~
