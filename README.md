@@ -45,3 +45,5 @@ const notes = new Array( 3 )
 ~~~javascript
 <span>{new Date().toLocaleDateString()}</span>
 ~~~
+
+9. create component Alert (the type of alert will be transmitted dynamically or return NULL)
