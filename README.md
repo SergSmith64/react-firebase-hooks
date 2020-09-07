@@ -51,3 +51,5 @@ const notes = new Array( 3 )
 10. create AlertState, alertReducer, alertContext and types and AlertState wrapped all components in App
 
 11. add logic...
+
+12. create a local state in Form.js and show and remove alert
