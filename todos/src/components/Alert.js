@@ -13,7 +13,8 @@ export const Alert = () => {
 		// __ вот так:  {`alert alert-${alert.type || 'warning'} __
 		<div class={`alert alert-${alert.type || 'warning'} alert-dismissible`}>
 			<strong>Внимание!</strong>
-			{alert.text}
+			{/* __ добавляю пробел - &nbsp; __ */}
+			&nbsp;{alert.text}
 			<button onClick={hide} type="button" class="close" aria-label="Close">
 				<span aria-hidden="true">&times;</span>
 			</button>

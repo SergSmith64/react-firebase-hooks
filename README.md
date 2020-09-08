@@ -55,3 +55,5 @@ const notes = new Array( 3 )
 12. create a local state in Form.js and show and remove alert
 
 13. set the logic for the alert in Form.js (empty line and line of text)
+
+14. implementation of functions: showLoader, addNote, removeNote, fetchNotes
