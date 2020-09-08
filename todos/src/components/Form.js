@@ -11,7 +11,13 @@ export const Form = () => {
     const submitHandler = event => {
         event.preventDefault()
 
-        alert.show(value, 'success')
+        if (value.trim()) {
+            // здесь надо создавать объект
+            alert.show('Заметка была создана', 'success')
+            setValue('')
+        } else {
+            alert.show('Введите текст')
+        }
     }
 
     return (

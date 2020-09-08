@@ -53,3 +53,5 @@ const notes = new Array( 3 )
 11. add logic...
 
 12. create a local state in Form.js and show and remove alert
+
+13. set the logic for the alert in Form.js (empty line and line of text)
